@@ -16,7 +16,6 @@ import cv2
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
 engine.setProperty('rate', 160)
-
 def speak(text):
     """Convert text to speech."""
     engine.say(text)
